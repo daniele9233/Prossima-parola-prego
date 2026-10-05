@@ -59,6 +59,8 @@ Se un fatto non è in questa tabella, non usarlo. Se la voce ha bisogno di un fa
 
 Va dichiarato come **ricostruzione illustrativa, non l'output registrato di un modello reale**, e con la nota che qui un pezzo coincide con una parola per semplicità mentre i veri pezzi no (cap. 2). Niente percentuali.
 
+> **Correzione a lavori finiti.** Nell'elenco qui sotto una riga non è un giro: da una riga alla successiva si aggiungono anche 2-3 parole, quindi tra le due passano più giri. L'elenco va presentato come «qualche istantanea» del testo che cresce, non come «cinque giri» né come «un pezzo in più a ogni riga». Le versioni sono state sistemate di conseguenza.
+
 - Richiesta: «Scrivi una mail formale all'amministratore di condominio per rinviare l'assemblea.»
 - Primo giro, candidati in ordine di plausibilità: «Gentile», «Egregio», «Spettabile», «Buongiorno». Se ne sceglie uno: «Gentile».
 - Giri successivi, il testo cresce di un pezzo alla volta: «Gentile» → «Gentile amministratore,» → «Gentile amministratore, le scrivo» → «Gentile amministratore, le scrivo per chiederle di» → «… per chiederle di rinviare l'assemblea».
