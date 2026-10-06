@@ -66,11 +66,11 @@ Regola: nessun personaggio è mai ridicolizzato per ignoranza. Si ride degli equ
 | Parametri (C06) | I pizzichi di sale: una ricetta con 8 miliardi di ingredienti, ciascuno dosato al pizzico | Nessun pizzico «contiene» una ricetta |
 | Training (C07) | Mamma ha imparato guardando nonna per quarant'anni: tante domeniche, tanti assaggi | Mamma sa perché una cosa funziona; il modello solo che di solito funziona |
 | RLHF (C08) | Gli assaggiatori della domenica: «troppo salato», «ottimo» | I parenti hanno gusti e vogliono farti felice (adulazione: il nonno che dice sempre «buonissimo») |
-| Fine-tuning e LoRA (C09) | Il corso di cucina giapponese: nuova specialità, stessa mano; un post-it sulla ricetta | La cuoca ricorda ciò che sapeva; il modello può dimenticare |
+| Fine-tuning e LoRA (C09) | Il corso di cucina giapponese: nuova specialità, stessa mano; due pagine di varianti spillate al quaderno | La cuoca ricorda ciò che sapeva; il modello può dimenticare |
 | Ragionamento (C08) | Fare i conti sul tovagliolo prima di rispondere | Il tovagliolo si legge; il ragionamento a schermo non sempre è fedele |
 | Temperatura (C10) | Ricetta seguita alla lettera contro «a occhio» | La nonna sa quando improvvisare; il modello tira a sorte |
 | Contesto (C11) | Il piano di lavoro della cucina: quel che c'è sopra si usa, il resto no | Il modello non ha cassetti |
-| Memorie (C13) | Cinque cose diverse: ciò che mamma sa a memoria (pesi), il piano di lavoro (contesto), i post-it sul frigo (KV cache), il foglietto «zio Gino allergico ai gamberi» (memoria dell'app), il ricettario di nonna (RAG) | I post-it sono nostri; quelli del modello li scrive il software |
+| Memorie (C13) | Cinque cose diverse: ciò che mamma sa a memoria (pesi), il piano di lavoro (contesto), la lavagnetta del frigo (KV cache), il foglietto «zio Gino allergico ai gamberi» (memoria dell'app), il ricettario di nonna (RAG) | La lavagnetta la scriviamo noi; gli appunti del modello li scrive il software |
 | Allucinazione (C12) | Zio Gino che racconta con sicurezza ciò che non sa | Zio Gino sa di inventare; il modello no |
 | Locale (C18) | Cucinare a casa contro ordinare al ristorante | A casa sei responsabile anche del gas |
 | GPU (C21) | Cento cuochi che tagliano cipolle insieme contro un cuoco stellato | I cento sanno fare una cosa sola |
@@ -169,7 +169,7 @@ Regola: nessun personaggio è mai ridicolizzato per ignoranza. Si ride degli equ
 ### Domenica 9 — Il corso di cucina giapponese
 
 - **Concetti:** C09.
-- **Esempi da usare:** la cuoca che segue un corso di sushi; il post-it sulla ricetta (LoRA); il rischio di dimenticare la pasta; il maestro e l'allievo (distillazione); il modello piccolo specializzato; prima il prompt, poi il RAG, il fine-tuning alla fine.
+- **Esempi da usare:** la cuoca che segue un corso di sushi; le due pagine di varianti spillate al quaderno (LoRA); il rischio di dimenticare la pasta; il maestro e l'allievo (distillazione); il modello piccolo specializzato; prima il prompt, poi il RAG, il fine-tuning alla fine.
 - **Domanda di Sofia:** «Posso insegnargli io il nome del cane?»
 
 ### Domenica 10 — I conti sul tovagliolo
@@ -190,14 +190,14 @@ Regola: nessun personaggio è mai ridicolizzato per ignoranza. Si ride degli equ
 ### Domenica 12 — Il piano di lavoro
 
 - **Concetti:** C11.
-- **Esempi da usare:** quello che c'è sul piano si usa; il badge che sbircia chi ti saluta; l'app che riscrive tutta la conversazione ogni volta; il piano pieno e le cose che cadono; la chat troppo lunga; la mail all'amministratore dimenticata a metà; i post-it sul frigo (KV cache) e il conto (128 KiB per token).
+- **Esempi da usare:** quello che c'è sul piano si usa; il badge che sbircia chi ti saluta; l'app che riscrive tutta la conversazione ogni volta; il piano pieno e le cose che cadono; la chat troppo lunga; la mail all'amministratore dimenticata a metà; la lavagnetta del frigo (KV cache) e il conto (128 KiB per token).
 - **Domanda di Sofia:** «Ma allora non si ricorda di me?»
 - **Prova tu:** P04.
 
 ### Domenica 13 — Le cinque memorie di nonna Ada
 
 - **Concetti:** C13, C14.
-- **Esempi da usare:** ciò che nonna sa a memoria, il piano di lavoro, i post-it, il foglietto allergie, il ricettario; il bibliotecario che cerca per significato; il libro sbagliato portato con sicurezza; la prima versione dell'assistente di nonna Ada (il RAG sul quaderno).
+- **Esempi da usare:** ciò che nonna sa a memoria, il piano di lavoro, la lavagnetta, il foglietto allergie, il ricettario; il bibliotecario che cerca per significato; il libro sbagliato portato con sicurezza; la prima versione dell'assistente di nonna Ada (il RAG sul quaderno).
 - **Ricetta:** ciò che deve essere ricordato va scritto.
 
 ### Domenica 14 — La giraffa quantistica di Napoli

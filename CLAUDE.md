@@ -29,19 +29,19 @@ Sei l'autore di **cinque libri divulgativi in italiano** sull'intelligenza artif
 - **Pieno di esempi: «tantissimi esempi» di piccola dimensione, in modo che tutti possano capire e divertirsi.** Il modello di riferimento è questo: ogni concetto tecnico (tokenizzazione, embedding, attention, previsione del prossimo token, allucinazioni, e così via) raccontato come lo si racconterebbe a tavola con la mamma, con un'immagine quotidiana e un numero.
 - Chi legge deve diventare **un esperto dell'argomento**.
 - **Cinque libri distinti**, ciascuno con un'impostazione, uno stile narrativo e un modo di raccontare diversi. Il tema comune è l'IA: LLM, Transformer, reti neurali, addestramento, tokenizzazione, embedding, attention, inferenza, allucinazioni, agenti, modelli locali, evoluzione storica e futura.
-- Due libri integrano le passioni dell'autore, **astronomia e corsa**, ma l'IA resta il tema principale: l'astronomia e la corsa servono come metafore, esempi, analogie e fili conduttori. Non un libro di astronomia con qualche riferimento all'IA; non un manuale di corsa con qualche capitolo sugli LLM.
+- ~~Due libri con astronomia e corsa~~: **vincolo rimosso dall'autore il 6 ottobre 2026.** Nessun libro usa astronomia o corsa; tre libri sono «generici» ma distinti (feedback in sezione 0).
 
 ## 2. I cinque libri
 
 | N. | Titolo di lavoro | Spina dorsale | Voce | Sistema di analogie | Filo conduttore |
 |---|---|---|---|---|---|
 | 1 | *Prossima parola, prego* | **Storia**: dal 1913 a oggi, problema dopo problema | l'autore: frasi brevissime, ironia da ufficio e IT, il narratore che si prende in giro | sportello, uffici, ministero, burocrazia | «Questa cosa è vera?» + l'eliminacode |
-| 2 | *Il cielo dei token* (**astronomia**) | **Spedizione**: ogni capitolo è una notte d'osservazione | noi, l'equipaggio: meraviglia e ironia gentile, scale | catalogo, mappe del cielo, telescopio, survey, rover, falsi segnali | «Che cosa si vede stasera nel cielo?» |
-| 3 | *Ritmo gara* (**corsa**) | **Tabella di allenamento** in 5 blocchi verso una gara | il compagno di corsa: parlato, pratico, sfottente | volume, specificità, taper, VO₂max, zaino da ultratrail, ritmo gara | «Fammi una tabella per il 10 km in meno di 50 minuti» |
-| 4 | *Mamma, che cos'è un token?* | **Domeniche a pranzo**: dialoghi in famiglia | commedia all'italiana a tavola, personaggi fissi | cucina: ingredienti, dispensa, brigata, ricetta | l'assistente di nonna Ada + la mail all'amministratore |
-| 5 | *Indagine su una risposta plausibile* | **Fascicoli**: casi veri, indagine, perizia, verdetto | noir ironico: Commissario Bayes e dottoressa Logit | indizi, sospettati, perizia | l'inchiesta sul «mandante» |
+| 2 | *Il pezzo che avanza* (nuovo, da approvare) | **Manuale di montaggio**: i capitoli sono fogli istruzioni di una libreria, con note a margine; si parte dall'hardware | due voci in conflitto: il Manuale impassibile e il Montatore che fa i conti | fai-da-te e arredamento: viti, piastrelle, tintometro, montacarichi, pannelli | la libreria PAROLA che si monta foglio dopo foglio + il pezzo che avanza |
+| 3 | *Qui non c'è campo* (nuovo, da approvare) | **Cornice e novelle**: nove giorni su un'isola isolata, senza rete; un capitolo al mattino, uno alla sera | cronista affettuoso con la sintassi sorniona di Boccaccio; ogni narratore di novelle ha la sua voce | proverbi e controproverbi | il quaderno del gasolio + il duello proverbio contro dato |
+| 4 | *Mamma, che cos'è un token?* (approvato) | **Domeniche a pranzo**: dialoghi in famiglia | commedia all'italiana a tavola, personaggi fissi | cucina: ingredienti, dispensa, brigata, ricetta | l'assistente di nonna Ada + la mail all'amministratore |
+| 5 | *Falsi amici* (nuovo, da approvare) | **Dizionario ragionato**: voci madri (i capitoli) e voci minori, si apre a caso | il redattore di dizionario che si diverte: due definizioni per lemma, la seria e quella «del diavolo gentile» | il significato quotidiano della parola (gettone, CAP, taglia, panni sporchi) | la Posta dei falsi amici + il rimando circolare |
 
-**Perché astronomia e corsa stanno nei libri 2 e 3** (scelta dello scrittore, da confermare): il Libro 2 sfrutta la scala (miliardi di parametri, spazi a molte dimensioni, segnali nel rumore) e l'incertezza (allucinazioni come falsi segnali); il Libro 3 sfrutta l'allenamento, la specializzazione e l'efficienza (addestramento, fine-tuning, quantizzazione, inferenza, token al secondo). Gli altri tre sono costruiti sulla storia, sulla famiglia e sul giallo, che si differenziano da questi per struttura e voce.
+**Come sono stati scelti i tre libri nuovi** (6 ottobre 2026): ideati 12 candidati su sei famiglie di formato, valutati da tre lettori virtuali (la mamma, il sistemista, l'editore). La terna scelta offre tre modi di leggere diversi dai due approvati: si **segue una storia** (3), si **monta con le mani** (2), si **sfoglia** (5). Riserva, già ideata: *Il tuo prompt è in consegna* (il viaggio di una singola richiesta dal tasto Invio alla risposta, con la doppia rotta cloud e casa); se l'autore la preferisce a uno dei tre, va scritta la scheda.
 
 I dettagli di ogni libro (identità, voce, analogie con «dove scricchiolano», fili, box, capitoli e copertura della mappa) sono nei file `libri/libro-N-*.md`.
 
@@ -50,7 +50,7 @@ I dettagli di ogni libro (identità, voce, analogie con «dove scricchiolano», 
 È il rischio principale del progetto. Per evitarlo:
 
 1. **Stessi fatti, parole diverse.** `mappa-contenuti.md` è la verità tecnica comune; le frasi no. Nessuna frase, battuta, esempio o aforisma si ripete tra i libri.
-2. **Un solo sistema di analogie per libro.** Ogni concetto ha nel proprio libro un'analogia madre (e una soltanto); non si prestano analogie tra libri (la tazza resta del Libro 1, il RAW e il JPEG del Libro 2, lo zaino da ultratrail del Libro 3, il «q.b.» del Libro 4).
+2. **Un solo sistema di analogie per libro.** Ogni concetto ha nel proprio libro un'analogia madre (e una soltanto); non si prestano analogie tra libri (la tazza resta del Libro 1, i pannelli in misure standard del Libro 2, i proverbi del Libro 3, il «q.b.» del Libro 4, la «taglia» del Libro 5).
 3. **Ordine e struttura diversi.** Ogni libro ha un ordine proprio dei concetti e una struttura di capitolo propria (sezione 11).
 4. **Storie vere assegnate** (sezione 5 della mappa). Le storie «cardine» (Transformer 2017, ChatGPT, AlexNet, DeepSeek-R1) possono comparire in più libri con angolazioni diverse; tutte le altre in un libro solo.
 5. **Personaggi, filo conduttore e gag propri.** Non importare personaggi da un libro all'altro.
@@ -84,7 +84,7 @@ Ogni libro ha la sua voce (nella sua scheda). Queste regole valgono per tutti:
 - **Formule:** al massimo una per capitolo, solo nei box tecnici, sempre accompagnata dalla sua lettura a parole.
 - **Né hype né catastrofismo.** L'IA non è magia e non è «solo statistica»: spiega cosa fa, cosa non fa e perché.
 - **Antropomorfismo sotto controllo.** «Pensa», «ricorda», «capisce» vanno bene come metafore, ma almeno una volta per concetto spiega cosa succede davvero.
-- **Non attribuire all'autore** biografia, gare, tempi, strumenti o esperienze non confermati. Nei libri 2 e 3 i personaggi e i dati di esempio sono inventati e dichiarati tali, a meno che l'autore non fornisca i propri.
+- **Non attribuire all'autore** biografia, gare, tempi, strumenti o esperienze non confermati. I personaggi e i dati di esempio sono sempre inventati e dichiarati tali (la famiglia del Libro 4, l'isola e gli ospiti del Libro 3, il montatore del Libro 2, le lettere della Posta del Libro 5), a meno che l'autore non fornisca i propri.
 - **Genere:** nelle voci in prima persona evita forme grammaticali marcate per genere (l'autore e il narratore non hanno un sesso stabilito).
 
 ## 6. La regola degli esempi
@@ -144,21 +144,21 @@ Un libro sull'IA che contiene allucinazioni si smentisce da solo.
 1. **Oggi:** l'autore rivede le schede. Cambia ciò che chiede, aggiorna questo file e le schede, nient'altro.
 2. **Dopo il «via»:** per ogni capitolo l'autore indica libro e numero. Tu: leggi le fonti (prima riga di questo file), mostra una **scaletta** (6-10 punti) con analogie, esempi, storie vere e box, aspetta l'ok, poi scrivi il capitolo completo in Markdown.
 3. **Consegna:** il capitolo va in `testi/libro-N/capitolo-NN-titolo.md`. In fondo al capitolo aggiungi: (1) fatti da verificare con la fonte primaria suggerita; (2) termini nuovi per il glossario con definizione di una riga; (3) rimandi ad altri capitoli; (4) scelte editoriali fatte in autonomia, una riga ciascuna.
-4. **Lunghezza:** 3.500-4.500 parole nei libri 1, 2 e 3; 2.500-3.500 nel Libro 4; 3.000-4.000 nel Libro 5. Se il capitolo è lungo, scrivilo una sezione per volta e chiedi se proseguire.
+4. **Lunghezza:** 3.500-4.500 parole nel Libro 1; circa 3.500 nei libri 2, 3 e 5; 2.500-3.500 nel Libro 4. L'autore sceglie quali capitoli tenere (sezione 0): la lunghezza finale dei libri segue la sua scelta. Se il capitolo è lungo, scrivilo una sezione per volta e chiedi se proseguire.
 5. **Glossario vivo:** l'autore raccoglie i termini in un glossario per libro. Rispettalo nei capitoli successivi.
 6. **Git:** lavora sul branch indicato dalla sessione; commit con messaggi in italiano, chiari; non aprire pull request se non richiesto.
 
 ## 11. Strutture dei capitoli (una per libro)
 
 - **Libro 1:** scena o aggancio storico, problema, chi l'ha affrontato, soluzione, cosa succede davvero, box tecnico, Regola d'uso, *Il boss del livello dopo*.
-- **Libro 2:** *Registro d'osservazione* (Strumento, Obiettivo, Condizioni), scena, analogia, meccanismo, *Falso segnale* e *Potenze di dieci* dove servono, Sotto il cofano, Regola d'uso.
-- **Libro 3:** *La seduta* (tipo e scopo), scena, analogia, meccanismo con *Passo e battito* (numeri), *Dal bordo strada*, Sotto il cofano, Regola d'uso, *Scarico* ogni quarto capitolo.
+- **Libro 2:** un *Foglio* con *Cosa serve* (attrezzi, tempo stimato, persone), i *Passi* numerati nella voce impassibile del Manuale, le *Note a margine* del Montatore, *Sotto il cofano*, *Il pezzo che avanza* (il limite aperto che il foglio non risolve), Regola d'uso; con formati che variano (foglio senza parole, errata corrige, garanzia).
+- **Libro 3:** *Il proverbio*, *Il controproverbio* (dove scricchiola), *L'ora del generatore* (Prova tu), *Sotto il quaderno del gasolio* (numeri e conti), *La novella della sera*, *Il proverbio nuovo* (la Regola d'uso, in tre righe).
 - **Libro 4:** *A tavola* (dialogo), *In cucina*, *Il conto*, *Sotto il cofano* (letto da Davide), *La domanda di Sofia*, *Ricetta*, *Il tovagliolo*, *Prova tu a casa*.
-- **Libro 5:** *La scena*, *Gli indizi*, *I sospettati*, *Sotto il cofano* (la perizia), *Il verdetto*, *Prevenzione*, *Prova tu*, *Dal fascicolo*.
+- **Libro 5:** *Lemma*, *Anagrafe* (da quando e per merito di chi la parola è entrata nell'IA: qui vive la storia), *Senso comune*, *Senso IA*, *Dove la parola mente* (con il grado di falsità da 1 a 5), *Sotto il cofano*, Regola d'uso, *Voci minori*, *Posta dei falsi amici*.
 
 ## 12. Ordine di scrittura (da decidere con l'autore)
 
-Proposta, modificabile: partire dal **Libro 1** (il prologo è già dell'autore e definisce la voce); poi i due libri con vincolo (2 e 3), che richiedono più cura nell'equilibrio tra IA e analogia; poi 4 e 5. Se l'autore preferisce procedere per «concetto» (lo stesso capitolo in più libri a ruota), la copertura della mappa in fondo a ogni scheda lo rende possibile.
+**Nessun ordine deciso: l'autore ha chiesto di aspettare** (sezione 0). Quando sarà il momento, si parte dal libro che l'autore indicherà. Se l'autore preferisce procedere per «concetto» (lo stesso capitolo in più libri a ruota), la copertura della mappa in fondo a ogni scheda lo rende possibile.
 
 ## 13. File del progetto
 
@@ -167,10 +167,10 @@ Proposta, modificabile: partire dal **Libro 1** (il prologo è già dell'autore 
 | `CLAUDE.md` | questa memoria |
 | `mappa-contenuti.md` | i 30 concetti tecnici, i numeri, le correzioni, le storie assegnate, il banco delle prove |
 | `libri/libro-1-prossima-parola-prego.md` | scheda del Libro 1 (storia) |
-| `libri/libro-2-il-cielo-dei-token.md` | scheda del Libro 2 (astronomia) |
-| `libri/libro-3-ritmo-gara.md` | scheda del Libro 3 (corsa) |
+| `libri/libro-2-il-pezzo-che-avanza.md` | scheda del Libro 2 (manuale di montaggio) |
+| `libri/libro-3-qui-non-ce-campo.md` | scheda del Libro 3 (cornice e novelle, isola senza rete) |
 | `libri/libro-4-mamma-che-cose-un-token.md` | scheda del Libro 4 (pranzo della domenica) |
-| `libri/libro-5-indagine-su-una-risposta-plausibile.md` | scheda del Libro 5 (giallo) |
+| `libri/libro-5-falsi-amici.md` | scheda del Libro 5 (dizionario ragionato) |
 | `aforismi.md` | banco degli aforismi, assegnato al Libro 1; regole per crearne di nuovi |
 | `versione-5-utente.md` | **testo dell'autore** (prologo del Libro 1), verbatim: **non modificare** senza richiesta esplicita |
 | `versione-1-staffetta.md`, `versione-2-livelli.md`, `versione-3-regole-o-dati.md`, `versione-4-otto-nomi.md` | quattro prove di apertura della sessione precedente: possono dare spunti (la staffetta, il boss del livello dopo), non si copiano |
@@ -182,21 +182,21 @@ Proposta, modificabile: partire dal **Libro 1** (il prologo è già dell'autore 
 
 Scelte già fatte (l'autore può cambiarle):
 
-- Libri 2 e 3 scelti per astronomia e corsa, per le ragioni nella sezione 2; i tre libri senza vincolo sono la storia, la famiglia e il giallo.
-- Titoli e sottotitoli sono **di lavoro**, tranne il Libro 1, il cui titolo e sottotitolo sono dell'autore.
+- La terna nuova (libri 2, 3, 5) è stata scelta da 12 candidati, per la diversità dei modi di leggere (sezione 2). Le schede dei libri bocciati (astronomia, corsa, giallo) sono state rimosse; restano nella cronologia git (commit `2e9a322`).
+- Titoli e sottotitoli sono **di lavoro**, tranne il Libro 1, il cui titolo e sottotitolo sono dell'autore. Il titolo del Libro 4 è approvato.
 - Tutti i libri coprono C01-C30 (sezione 3).
-- Il Libro 4 usa personaggi inventati e dichiarati tali; il Libro 5 un Commissario Bayes e una dottoressa Logit; i Libri 2 e 3 un equipaggio e un runner di esempio, tutti inventati.
+- Personaggi, luoghi e lettere sono sempre inventati e dichiarati tali (sezione 5).
+- Storie vere assegnate a un solo libro: tabella nella sezione 5 della mappa. Garante e ChatGPT solo nel Libro 4; Mata contro Avianca solo nel Libro 1.
 - Le vecchie schede e il vecchio `CLAUDE.md` (un solo libro di 20 capitoli) restano nella cronologia git (si leggono con `git show 6357a25^:CLAUDE.md` e `git show 6357a25^:schede-capitoli.md`), non più operative; ne sono stati riportati i contenuti verificati nella mappa e negli aforismi.
 
 Decisioni aperte (chiedere all'autore):
 
-1. I cinque libri e i titoli di lavoro vanno bene? Il Libro 1 è il riferimento della voce dell'autore?
-2. Astronomia nel Libro 2 e corsa nel Libro 3: confermi la scelta?
-3. Lunghezza: ~25 capitoli per libro (circa 80-100 mila parole il Libro 1) è giusta, o si preferisce tagliare?
-4. Ordine di scrittura (sezione 12).
-5. Dati personali: vuoi che per il Libro 3 usi i tuoi dati reali di corsa (c'è un connettore Strava) e per il Libro 2 le tue osservazioni, con il tuo consenso esplicito? Altrimenti restano personaggi inventati.
-6. Genere del narratore del Libro 4 (ora non marcato).
-7. Test dell'esperto: 30 domande per libro, in fondo; ok?
+1. I tre libri nuovi (*Il pezzo che avanza*, *Qui non c'è campo*, *Falsi amici*) piacciono? Se no, quale riserva o quale altra idea? (Riserva già ideata: *Il tuo prompt è in consegna*.)
+2. Quali capitoli tenere e quali tagliare, libro per libro: l'autore li ha chiesti per scegliere.
+3. Ordine di scrittura (sezione 12): rinviato.
+4. Test dell'esperto: 30 domande per libro, in fondo; ok? (Nel Libro 5 è un cruciverba.)
+
+Decisioni prese dall'autore il 6 ottobre 2026 (non più aperte): Libro 1 e Libro 4 approvati; niente astronomia, niente corsa, niente dati personali; narratore del Libro 4 con genere non marcato.
 
 ## 15. Checklist prima di consegnare ogni capitolo
 
