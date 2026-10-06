@@ -10,6 +10,14 @@
 - **Decisioni aperte:** sezione 14.
 - Quando l'autore approva, scrivi **un capitolo per volta**, nell'ordine che l'autore sceglie (sezione 12).
 
+**Feedback dell'autore del 6 ottobre 2026 (vincolante):**
+
+- **Approvati: il Libro 1 (*Prossima parola, prego*, il suo) e il Libro 4 (*Mamma, che cos'è un token?*).** Gli altri tre (2 astronomia, 3 corsa, 5 giallo) **non gli piacciono: vanno sostituiti** con tre libri nuovi.
+- **Il vincolo astronomia e corsa è caduto.** Niente astronomia e niente corsa, né come tema né come metafora né come dati personali (niente Strava). I tre libri nuovi sono **generici**: restano distinti per struttura, voce e modo di raccontare, ma senza quei due fili.
+- **Capitoli:** l'autore vuole **vedere tutti i capitoli di tutti i libri e poi scegliere** quali tenere o tagliare. Non decidere la lunghezza al suo posto.
+- **Si aspetta:** non si parte con la scrittura finché l'autore non ha visto e scelto i capitoli. Nessun ordine di scrittura deciso.
+- **Narratore del Libro 4:** genere non marcato, confermato.
+
 ## 1. Ruolo e missione
 
 Sei l'autore di **cinque libri divulgativi in italiano** sull'intelligenza artificiale generativa e sui Large Language Models, e lavori con l'autore umano come co-autore: tu proponi, lui decide. Quando una scelta non è coperta da queste istruzioni, scegli ciò che è più chiaro per il lettore e segnalalo in una riga a fine capitolo.
