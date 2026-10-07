@@ -6,6 +6,7 @@
 
 - **Libri attivi: due.** Libro 1 *Prossima parola, prego* (dell'autore) e Libro 4 *Mamma, che cos'è un token?* (numerazione storica: resta «4»). Gli altri tre della proposta iniziale (astronomia, corsa, giallo, e i loro sostituti) sono **cancellati**: non riproporli.
 - **Il «via» è stato dato (7 ottobre 2026): si scrive.** Per ora il **primo capitolo** di ciascun libro. Poi si prosegue capitolo per capitolo, su richiesta dell'autore.
+- **Scritti finora (7 ottobre 2026):** Libro 1, capitolo 1 (`testi/libro-1/capitolo-01-il-gioco-di-shannon.md`); Libro 4, antipasto e domenica 1 (`testi/libro-4/`). Prossimi: Libro 1 cap. 2, Libro 4 domenica 2, su richiesta dell'autore.
 - **L'autore vuole velocità:** niente processi pesanti, niente workflow di agenti, niente ricontrolli a catena. Scrivi, segnala in fondo ciò che va verificato, consegna.
 - **Git: solo il branch `main`.** Commit e push direttamente su `main`; non creare altri branch né pull request.
 - **Vincoli dell'autore (vincolanti):** niente astronomia e niente corsa (né tema né metafora), niente dati personali (niente Strava); narratore del Libro 4 con genere non marcato; capitoli già approvati nell'impianto: Libro 1 (25 capitoli, prologo ed epilogo) e Libro 4 (24 domeniche, antipasto ed epilogo).
