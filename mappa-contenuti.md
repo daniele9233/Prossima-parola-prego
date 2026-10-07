@@ -1,6 +1,6 @@
-# Mappa dei contenuti tecnici — la verità condivisa dei cinque libri
+# Mappa dei contenuti tecnici — la verità condivisa dei due libri
 
-> È il programma d'esame. Chi chiude uno qualsiasi dei cinque libri deve saper rispondere a tutto ciò che sta qui. I libri cambiano percorso, voce, analogie ed esempi; i fatti restano questi. Le istruzioni permanenti sono in `CLAUDE.md`, i capitoli in `libri/`.
+> È il programma d'esame. Chi chiude uno dei due libri deve saper rispondere a tutto ciò che sta qui. I libri cambiano percorso, voce, analogie ed esempi; i fatti restano questi. Le istruzioni permanenti sono in `CLAUDE.md`, i capitoli in `libri/`.
 
 ## 0. Come si usa questo file
 
@@ -308,15 +308,12 @@ Temi da presentare come domande, mai come date: modelli piccoli sempre più capa
 
 ## 5. Assegnazione delle storie vere (niente duplicati tra i libri)
 
-Le storie «cardine» possono comparire in più libri, ma con angolazione diversa e al massimo in un paragrafo negli altri. Tutte le altre stanno in un libro solo.
+Le storie «cardine» possono comparire in entrambi i libri, con angolazione diversa e al massimo in un paragrafo nell'altro. Tutte le altre stanno in un libro solo.
 
 | Libro | Storie assegnate (da verificare prima di usarle) |
 |---|---|
 | **1 Storia** | Markov e l'Onegin; Shannon (monociclo, Theseus, il gioco del libro); Chomsky e le «idee verdi senza colore»; Jelinek e IBM; Stupid Backoff (Brants e altri, 2007); Bengio 2003; Karpathy 2015 (l'indirizzo web allucinato); il trucco di leggere la frase al contrario (Sutskever e altri, 2014); otto autori in ordine casuale; GPT-2 «troppo pericoloso» (febbraio 2019); InstructGPT; ChatGPT, il lancio; il leak di LLaMA e Gerganov; Mixtral e il link torrent (dicembre 2023); DeepSeek-R1 e la Borsa; Perceptron e il New York Times (1958); Dartmouth; The Bitter Lesson; Dijkstra e il sottomarino; Golden Gate Claude (maggio 2024); GPT-4o adulatore (aprile 2025); Alpaca e QLoRA (2023); SolidGoldMagikarp e il nome in codice «Strawberry»; Mata contro Avianca (giugno 2023) |
-| **2 Manuale di montaggio** (*Il pezzo che avanza*) | Replit e il database cancellato (luglio 2025); la Chevrolet da un dollaro (dicembre 2023); DPD (gennaio 2024); Llama 4 e LMArena (aprile 2025); la dimostrazione di DeepSeek-V3 su Mac Studio da 512 GB (marzo 2025); le «etichette d'origine» dei pezzi: anno e inventore di ogni concetto, in una riga, senza raccontare le storie assegnate agli altri libri |
-| **3 Cornice e novelle** (*Qui non c'è campo*) | Bing «Sydney» (febbraio 2023, le chat lunghe); Tay (2016, «dimmi con chi vai»); Google AI Overviews e la colla sulla pizza (maggio 2024); Samsung (2023, la fuga di codice); proverbi e modi di dire con le loro forme verificate (Firth 1957 sull'ipotesi distribuzionale; Lorenzo de' Medici); aneddoti inventati dichiarati tali per le novelle |
 | **4 Pranzo** | Deep Blue, Watson, AlphaGo come «le cose viste al telegiornale»; il Rischiatutto e Mike Bongiorno; il Garante e ChatGPT (marzo 2023, solo in questo libro); personaggi e scene di famiglia dichiarati inventati |
-| **5 Dizionario** (*Falsi amici*) | ELIZA (1966, nell'«Anagrafe» di Capire e Intelligenza); Clever Hans (Berlino, circa 1904; Pfungst 1907); Air Canada (febbraio 2024, per la voce Agente); etimologie e storie delle parole [DA VERIFICARE ciascuna: pronto e prompt, temperatura e Boltzmann, confabulazione, «cervello elettronico» nella stampa italiana, intelligence e intelligenza]; lettere della Posta dei falsi amici, inventate e dichiarate tali |
 
 **Cardine condivise:** Transformer 2017; ChatGPT 30 novembre 2022; AlexNet su due GTX 580 (2012); DeepSeek-R1 (gennaio 2025).
 

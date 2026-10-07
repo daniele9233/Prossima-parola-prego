@@ -7,7 +7,7 @@
 ## 1. Identità del libro
 
 - **Spina dorsale:** una storia di problemi e soluzioni. Ogni capitolo racconta un problema, chi lo ha affrontato, la soluzione e il problema nuovo che la soluzione ha regalato (chiusura fissa: *Il boss del livello dopo*). Il lettore capisce perché oggi un LLM è fatto così, perché la storia poteva andare diversamente e perché i problemi di oggi (memoria, velocità, allucinazioni) sono i figli di quelli di ieri.
-- **Cosa lo distingue dagli altri quattro:** è l'unico in ordine cronologico, l'unico che parte dalla carta e dalle matite, e quello in cui l'hardware è un personaggio con una biografia (GPU, CUDA, HBM). È il libro più lungo e quello con più nomi propri.
+- **Cosa lo distingue dal Libro 4:** è l'unico in ordine cronologico, l'unico che parte dalla carta e dalle matite, e quello in cui l'hardware è un personaggio con una biografia (GPU, CUDA, HBM). È il libro più lungo e quello con più nomi propri.
 - **Dove è più profondo:** origini (C28), pre-training e leggi di scala (C07), storia dei modelli locali (C18), hardware (C21, C25).
 - **Lettore ideale:** chi vuole capire «come ci siamo arrivati» e ama le storie vere. Il lettore tecnico trova date, paper e numeri verificabili.
 
@@ -220,7 +220,7 @@ Il testo dell'autore, `versione-5-utente.md`: da Markov all'«abisso» dell'allu
 - **Concetti:** C12.
 - **Idea:** chiude il cerchio del prologo. Perché il modello non ha un campanello, perché i test a crocette senza penalità incoraggiano a tirare a indovinare, come si riduce il problema.
 - **Esempi da usare:** il libro che non esiste; il re Giuseppe IV d'Italia (esempio illustrativo dell'autore); l'indirizzo web inventato di Karpathy come inizio e ora come fine; test a crocette; tre famiglie di errori.
-- **Storia vera:** una sola, in breve e con tono equo: *Mata contro Avianca* (tribunale federale di New York, sentenza di sanzioni del 22 giugno 2023), le sentenze inventate. È la storia del Libro 1; gli altri libri non la usano.
+- **Storia vera:** una sola, in breve e con tono equo: *Mata contro Avianca* (tribunale federale di New York, sentenza di sanzioni del 22 giugno 2023), le sentenze inventate.
 - **Mito da sfatare:** «basta abbassare la temperatura».
 - **Il boss del livello dopo:** si può controllare il modello se lo si fa girare in casa?
 
