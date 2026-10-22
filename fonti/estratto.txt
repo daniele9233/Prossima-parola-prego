@@ -1,0 +1,343 @@
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+1
+UNA BREVE STORIA DELL’INTELLIGENZA ARTIFICIALE
+Prima della prossima parola
+Da un frate catalano a ChatGPT: settecento anni per insegnare a una
+macchina a indovinare che cosa diremo
+Quando scrivete un messaggio sul telefono, sopra la tastiera compaiono tre parole
+suggerite. Scrivete «buona» e il telefono propone «notte», «giornata», «serata».
+Non sa che cosa intendete: ha solo visto, milioni di volte, quali parole vengono dopo
+«buona».
+Ecco il segreto, tutto intero: ChatGPT, Claude e gli altri «modelli linguistici» fanno la
+stessa cosa. Leggono un testo e indovinano la parola successiva. Poi quella dopo, e quella
+dopo ancora. La differenza è che hanno «letto» una porzione enorme di tutto ciò che l’umanità
+ha scritto, e che il loro modo di indovinare è diventato così raffinato da sembrare pensiero. Se
+lo sia davvero è una delle domande più affascinanti del nostro tempo, e la lasceremo aperta
+fino all’ultima pagina.
+Questa è la storia di come ci siamo arrivati. Non l’ha inventata una persona sola né un’azienda
+della Silicon Valley: è una staffetta durata secoli, fatta di filosofi, fisici, matematici litigiosi,
+spie, ragazzi in fuga e qualche giocoliere. Lungo il percorso trovate tre tipi di riquadri: per
+l’informatico (le formule vere), per chi ama pensare (le domande filosofiche) e curiosità
+(per tutti). Si possono saltare senza perdere il filo.
+1305 – 1843
+1. Il sogno di calcolare il pensiero
+Intorno al 1305 il frate maiorchino Raimondo Lullo costruì l’Ars Magna: dischi di carta
+concentrici, con sopra scritti concetti come bontà, grandezza, eternità. Ruotandoli si
+ottenevano tutte le combinazioni possibili. Lullo credeva che così si potessero generare
+meccanicamente tutte le verità e convertire gli infedeli con la logica invece che con la spada.
+Quattro secoli dopo Gottfried Wilhelm Leibniz, che di Lullo era un lettore appassionato,
+sognò una characteristica universalis: una lingua di simboli in cui ogni ragionamento
+diventasse un calcolo. Davanti a una disputa, scriveva, due filosofi non dovrebbero più litigare
+ma sedersi e dirsi: Calculemus, calcoliamo. Leibniz descrisse anche l’aritmetica binaria
+(1703), quella fatta solo di 0 e 1 che oggi parla dentro ogni computer, e la regola della catena
+delle derivate, che ritroveremo nel 1986.
+Nel 1843 Ada Lovelace, figlia del poeta Byron, tradusse e annotò un articolo sulla Macchina
+Analitica di Charles Babbage, un calcolatore meccanico mai costruito. Nelle sue note scrisse
+quello che molti considerano il primo programma della storia e intuì che una macchina del
+genere potrebbe manipolare non solo numeri, ma qualunque simbolo, perfino note musicali.
+Ma aggiunse un avvertimento: la macchina non ha alcuna pretesa di creare nulla, fa solo ciò
+che le ordiniamo di fare.
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+2
+CURIOSITÀ
+Nel 1726 Jonathan Swift, nei Viaggi di Gulliver, prese in giro proprio questo sogno. Nell’Accademia di Lagado
+un professore ha una macchina coperta di tessere di legno con tutte le parole della lingua: gli studenti girano
+delle manovelle, le parole si rimescolano, e quando per caso compaiono tre o quattro parole di fila che hanno
+senso le trascrivono. Così, promette il professore, chiunque potrà scrivere libri di filosofia e poesia senza alcun
+talento. Era satira. Tre secoli dopo, è quasi una descrizione tecnica: mancava solo il modo di scegliere le parole
+non a caso.
+1870 – 1906
+2. Una formula scolpita su una tomba
+Sembra strano, ma uno dei mattoni dell’intelligenza artificiale viene dalla fisica dei gas. Il
+viennese Ludwig Boltzmann voleva capire perché il calore passa sempre dal caldo al freddo
+e mai al contrario. La sua risposta fu statistica: un gas è fatto di miliardi di molecole, e il
+disordine vince semplicemente perché i modi di essere disordinati sono infinitamente più
+numerosi di quelli di essere ordinati. Misurò questo disordine con una formula, l’entropia,
+che oggi è incisa sulla sua tomba nel cimitero centrale di Vienna:
+S = k · log W
+Boltzmann ricavò anche una regola per calcolare quanto è probabile che una molecola si trovi
+in un certo stato in base alla sua energia e alla temperatura. Teniamola a mente: è la stessa
+regola che oggi decide quale parola sceglie ChatGPT. Boltzmann morì nel 1906, amareggiato
+dagli attacchi di chi non credeva nemmeno all’esistenza degli atomi. Nello stesso anno, a San
+Pietroburgo, un matematico pubblicava l’idea da cui parte davvero la nostra storia.
+PER L’INFORMATICO
+La distribuzione di Boltzmann, P(i) ∝ e−Ei/kT, è identica alla softmax che chiude ogni Transformer: P(tokeni) =
+ezi/T / Σj ezj/T. I logit z prendono il posto dell’energia (col segno cambiato) e il parametro temperature delle API
+è letteralmente la T di Boltzmann: alta temperatura, scelte più disordinate e creative; bassa temperatura,
+risposte più prevedibili.
+1906 – 1913
+3. Il matematico ribelle che contava le vocali di
+Puškin
+Andrej Markov era un professore di San Pietroburgo dal carattere impossibile. Nel 1912,
+quando la Chiesa ortodossa scomunicò Lev Tolstoj, Markov chiese per iscritto di essere
+scomunicato anche lui, per solidarietà. Ma la sua lite più feconda fu con un collega moscovita,
+Pavel Nekrasov, matematico e uomo molto religioso.
+Nekrasov sosteneva una tesi audace: la «legge dei grandi numeri» (quella per cui, lanciando
+una moneta mille volte, le teste si avvicinano alla metà) funziona solo con eventi indipendenti.
+Le statistiche sociali, come i tassi di criminalità, seguono quella legge; dunque le scelte
+umane sono indipendenti; dunque il libero arbitrio esiste, ed è dimostrato dalla matematica.
+Markov trovò il ragionamento insopportabile e, nel 1906, per smontarlo inventò un oggetto
+nuovo: una catena di eventi in cui ognuno dipende da quello precedente, e che tuttavia
+obbedisce lo stesso alla legge dei grandi numeri.
+Nel 1913 volle mostrare che le sue catene esistevano nel mondo reale. Prese l’Evgenij Onegin
+di Puškin, il poema nazionale russo, e contò a mano le prime 20.000 lettere, annotando se
+ogni vocale o consonante era seguita da una vocale o da una consonante. Scoprì che circa il
+43% delle lettere erano vocali, ma che dopo una vocale ne arrivava un’altra solo una volta su
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+3
+otto, mentre dopo una consonante una vocale arrivava due volte su tre. La lettera successiva
+dipende da quella prima. Era il primo modello statistico del linguaggio della storia, fatto con
+carta, matita e molta ostinazione.
+PER CHI AMA PENSARE
+La prima idea dell’AI linguistica nasce da una disputa sul libero arbitrio. Nekrasov usava la probabilità per
+difendere la libertà umana; Markov per mostrare che regolarità e dipendenza convivono. Oggi la domanda si è
+rovesciata: se una macchina che prevede la parola successiva riesce a scrivere come noi, che cosa dice questo
+del nostro modo di parlare? Siamo anche noi, in parte, catene di Markov?
+1936 – 1952
+4. Turing: «Le macchine possono pensare?»
+Nel 1936 un ventiquattrenne di Cambridge, Alan Turing, descrisse una macchina
+immaginaria: un nastro, una testina che legge e scrive simboli, poche regole. Dimostrò che
+una macchina così semplice può eseguire qualunque calcolo che possa essere descritto da una
+procedura. Senza volerlo, aveva definito che cos’è un computer prima che ne esistesse uno.
+Durante la guerra, a Bletchley Park, contribuì in modo decisivo a decifrare i messaggi della
+macchina tedesca Enigma.
+Nel 1950 pubblicò l’articolo che apre con la domanda più famosa dell’informatica: le
+macchine possono pensare? Trovandola troppo vaga, la sostituì con un gioco, il gioco
+dell’imitazione: se conversando per iscritto non riusciamo a distinguere una macchina da un
+essere umano, che diritto abbiamo di dire che non pensa? Turing previde che verso il 2000 un
+interrogatore medio, dopo cinque minuti di conversazione, non avrebbe avuto più del 70% di
+probabilità di indovinare. Nello stesso articolo rispose una per una alle obiezioni, compresa
+quella che chiamò «l’obiezione di Lady Lovelace»: una macchina non può fare nulla di nuovo.
+La sua replica: anche le macchine, spesso, ci sorprendono.
+CURIOSITÀ
+Turing scrisse uno dei primi programmi di scacchi quando non esisteva ancora un computer capace di
+eseguirlo. Nel 1952 lo «eseguì» lui stesso, a mano, su carta, contro un collega: impiegava circa mezz’ora per
+ogni mossa. Perse. Turing morì nel 1954, due anni dopo essere stato condannato per la sua omosessualità; il
+governo britannico gli ha chiesto scusa ufficialmente solo nel 2009.
+1943 – 1951
+5. Neuroni di carta e il gioco della prossima lettera
+Nel 1943 un neurologo, Warren McCulloch, e un ragazzo di diciannove anni senza laurea,
+Walter Pitts, pubblicarono il primo modello matematico di un neurone: una piccola unità che
+riceve segnali, li somma e «si accende» se superano una soglia. Mostrarono che reti di questi
+neuroni semplificati possono calcolare qualunque funzione logica. Il cervello, almeno in linea
+di principio, poteva diventare matematica.
+CURIOSITÀ
+La storia di Pitts, come la raccontano i suoi biografi, sembra un romanzo. A dodici anni, a Detroit, si nascose
+per tre giorni in una biblioteca per sfuggire ai bulli e lesse i Principia Mathematica di Russell e Whitehead, tre
+volumi di logica quasi illeggibili. Trovò alcuni errori e scrisse a Bertrand Russell, che gli rispose invitandolo a
+studiare con lui in Inghilterra. Pitts non frequentò mai ufficialmente l’università.
+Nel 1948, ai Bell Labs, Claude Shannon pubblicò Una teoria matematica della
+comunicazione. Fino ad allora «informazione» era una parola vaga; Shannon la rese
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+4
+misurabile. L’informazione, disse, è sorpresa: un messaggio che potevi prevedere non ti dice
+nulla, uno inatteso ti dice molto. Misurò la sorpresa con una formula che somigliava in modo
+impressionante a quella di Boltzmann, e la chiamò anch’essa entropia. Si racconta che fu il
+grande matematico John von Neumann a suggerirgli il nome: tanto, gli avrebbe detto, nessuno
+sa davvero che cosa sia l’entropia, e in ogni discussione avrai sempre il vantaggio.
+In quello stesso articolo Shannon fece un esperimento che oggi suona profetico. Generò frasi
+«finte» in inglese scegliendo ogni parola in base alla precedente, con probabilità prese da un
+libro. Ne uscivano cose come «THE HEAD AND IN FRONTAL ATTACK ON AN ENGLISH
+WRITER…»: prive di senso, eppure con il suono dell’inglese. Nel 1951 andò oltre: chiese a
+delle persone di indovinare un testo lettera per lettera e da quanti tentativi servivano stimò
+quanta informazione contiene davvero l’inglese. È esattamente il compito su cui oggi si
+allenano gli LLM, con la differenza che a indovinare non è una persona ma una rete neurale,
+e i testi sono miliardi.
+PER L’INFORMATICO
+Entropia di Shannon: H = −Σ p(x) log2 p(x), in bit. Da qui discende la cross-entropia, la funzione di perdita
+con cui si addestra ogni LLM: L = −Σt log P(wt | w1…wt−1). La perplexity che trovi nei paper è semplicemente
+2H (o eL): il numero medio di parole tra cui il modello è «indeciso». Lo schema di Shannon del 1948 con le
+approssimazioni di ordine zero, uno e due è di fatto un modello a n-grammi.
+CURIOSITÀ
+Shannon era un personaggio: girava per i corridoi dei Bell Labs in monociclo, a volte facendo il giocoliere. Nel
+1950 costruì Theseus, un topo meccanico che imparava a uscire da un labirinto e si ricordava la strada: una
+delle prime macchine al mondo capaci di imparare.
+1955 – 1990
+6. Nasce l’«intelligenza artificiale»: entusiasmi e
+inverni
+Nell’agosto del 1955 quattro ricercatori, John McCarthy, Marvin Minsky, Nathan
+Rochester e lo stesso Shannon, scrissero la proposta per un seminario estivo al Dartmouth
+College, nel New Hampshire. Per descriverlo McCarthy coniò un’espressione nuova: artificial
+intelligence. Il seminario si tenne nell’estate del 1956, ed è considerato l’atto di nascita della
+disciplina. La proposta era di un ottimismo commovente: si pensava di fare progressi
+significativi in due mesi, con dieci persone.
+Nel 1958 lo psicologo Frank Rosenblatt presentò il percettrone, una macchina con neuroni
+artificiali che imparava a riconoscere forme. Il New York Times riportò che la Marina
+americana si aspettava di ottenerne presto un computer capace di camminare, parlare,
+vedere, scrivere, riprodursi ed essere cosciente della propria esistenza. Nel 1969 Minsky e
+Seymour Papert pubblicarono un libro che mostrava i limiti matematici del percettrone
+semplice; i finanziamenti alle reti neurali crollarono. Rosenblatt morì nel 1971 in un incidente
+in barca, il giorno del suo compleanno, senza vedere la rivincita delle sue idee. Seguirono anni
+di disillusione che gli addetti ai lavori chiamano gli inverni dell’AI.
+Intanto, nel 1966, al MIT, Joseph Weizenbaum scrisse ELIZA, un programma di poche
+centinaia di righe che imitava uno psicoterapeuta rigirando le frasi dell’utente («Mi sento
+triste.» «Perché ti senti triste?»). Weizenbaum rimase sconvolto quando la sua segretaria, che
+sapeva benissimo come funzionava, gli chiese di uscire dalla stanza per poter parlare con
+ELIZA in privato. Da quel momento divenne uno dei critici più severi dell’AI.
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+5
+PER CHI AMA PENSARE
+L’effetto ELIZA è la nostra tendenza ad attribuire comprensione ed emozioni a qualunque cosa ci risponda
+con parole sensate. Nel 1980 il filosofo John Searle propose l’esperimento della stanza cinese: un uomo
+chiuso in una stanza riceve fogli in cinese e, seguendo un enorme manuale di regole, restituisce risposte
+perfette senza capire una parola. Il sistema «capisce» il cinese? Per Searle no: manipolare simboli non è
+comprendere. Per i suoi critici a capire è l’intero sistema, uomo più manuale. Con gli LLM questo esperimento
+mentale è diventato, quasi, un esperimento reale.
+Le reti neurali tornarono nel 1986, quando David Rumelhart, Geoffrey Hinton e Ronald
+Williams resero popolare la retropropagazione (backpropagation): un metodo per
+correggere una rete un pochino alla volta, partendo dai suoi errori e risalendo all’indietro
+strato per strato. Nello stesso periodo, all’IBM, il gruppo di Frederick Jelinek dimostrò che
+per il riconoscimento vocale la statistica funzionava meglio delle regole grammaticali scritte a
+mano. A Jelinek è attribuita una battuta rimasta celebre: ogni volta che licenzio un linguista,
+le prestazioni del sistema migliorano.
+1953 – 2013
+7. Le parole diventano luoghi
+Come si spiega a un computer che cosa significa «gatto»? La risposta venne,
+sorprendentemente, dalla filosofia e dalla linguistica. Ludwig Wittgenstein, nelle Ricerche
+filosofiche (1953), sostenne che il significato di una parola è il suo uso nella lingua. Il
+linguista Zellig Harris (1954) osservò che parole con significati simili compaiono in contesti
+simili, e il britannico J. R. Firth (1957) lo riassunse in una frase diventata il motto della
+disciplina:
+«You shall know a word by the company it keeps»
+Conoscerai una parola dalla compagnia che frequenta
+Nel 2003 Yoshua Bengio unì finalmente i due filoni della nostra storia, quello probabilistico
+di Markov e Shannon e quello neurale di McCulloch, Pitts e Rosenblatt: costruì il primo
+modello linguistico neurale, una rete che prevedeva la parola successiva imparando, intanto,
+a rappresentare ogni parola come un punto in uno spazio. Nel 2013 Tomas Mikolov e
+colleghi, con word2vec, resero questa idea veloce e popolare, e scoprirono qualcosa di quasi
+magico: in quello spazio i significati si comportano come geometria. Partite dal punto «re»,
+togliete la direzione «uomo», aggiungete la direzione «donna», e arrivate vicino a «regina».
+PER L’INFORMATICO
+Gli embedding sono vettori densi (centinaia o migliaia di dimensioni). La vicinanza semantica si misura con la
+similarità del coseno, cos θ = (A · B) / (‖A‖ ‖B‖). L’analogia vre − vuomo + vdonna ≈ vregina funziona cercando il
+vicino più prossimo ed escludendo le parole di partenza. È l’ipotesi distribuzionale di Harris e Firth tradotta in
+algebra lineare: il vettore di una parola è la sintesi dei contesti in cui compare.
+PER CHI AMA PENSARE
+È un piccolo trionfo postumo di Wittgenstein: le macchine hanno imparato il significato delle parole
+esattamente come lui suggeriva, osservandone l’uso, senza definizioni né dizionari. Resta la domanda che lui
+stesso avrebbe posto: conoscere tutti gli usi di «dolore» equivale a sapere che cos’è il dolore?
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+6
+2014 – oggi
+8. «Attention Is All You Need»
+Restava un problema. Leggendo una frase lunga, i modelli dimenticavano l’inizio. Nel 2014
+Dzmitry Bahdanau, Kyunghyun Cho e Bengio introdussero l’attenzione: invece di ricordare
+tutto, il modello impara a «guardare indietro» verso le parole che contano. Nella frase «Il
+gatto ha mangiato il topo perché aveva fame», per capire chi aveva fame bisogna prestare
+attenzione a «gatto», non a «topo».
+Nel 2017 otto ricercatori di Google pubblicarono un articolo dal titolo scherzoso, che fa il
+verso alla canzone dei Beatles: Attention Is All You Need, l’attenzione è tutto ciò che serve.
+Proponevano un’architettura nuova, il Transformer, fatta quasi solo di attenzione: ogni
+parola guarda contemporaneamente tutte le altre. Il dettaglio decisivo era pratico: questo
+calcolo si poteva fare tutto in parallelo sulle schede grafiche, le stesse dei videogiochi. Per la
+prima volta si poteva allenare un modello su quantità di testo prima impensabili.
+PER L’INFORMATICO
+Scaled dot-product attention: Attention(Q, K, V) = softmax(QKT / √dk) · V. Ogni token produce una query (cosa
+cerco), una key (cosa offro) e un value (cosa trasmetto). La divisione per √dk evita che i prodotti scalari
+crescano con la dimensione e saturino la softmax, appiattendo i gradienti. Nei decoder come GPT una
+maschera causale impedisce a ogni token di guardare il futuro: è la regola della catena di Markov e Shannon,
+P(wt | w<t), ma con un contesto di migliaia di token invece che di uno o due.
+Da lì la corsa è stata vertiginosa. Nel 2018 OpenAI presentò GPT; nel 2019 annunciò GPT-2
+ma inizialmente non lo rese pubblico per intero, ritenendolo potenzialmente pericoloso; nel
+2020 GPT-3 aveva 175 miliardi di parametri, cioè di «manopole» regolate durante
+l’allenamento. Il 30 novembre 2022 arrivò ChatGPT: secondo le stime, in circa due mesi
+raggiunse cento milioni di utenti, la crescita più rapida mai vista per un’applicazione.
+Seguirono Claude, Gemini, LLaMA e molti altri.
+CURIOSITÀ
+Nel 2024 il premio Nobel per la fisica è andato a John Hopfield e Geoffrey Hinton per le reti neurali. Tra i
+lavori citati c’è la macchina di Boltzmann di Hinton (1985), che porta il nome del fisico del capitolo 2. Il
+cerchio si chiude: un’idea nata per spiegare i gas è tornata alla fisica passando per il linguaggio. E sotto
+l’articolo del Transformer c’è una nota che dichiara gli otto autori contributori alla pari, elencati in ordine
+casuale.
+Epilogo
+9. Che cosa abbiamo costruito?
+Ricapitoliamo con le parole più semplici possibili. Un LLM è un sistema che ha letto
+moltissimo e ha imparato una sola abilità: dato un testo, stimare quali parole è probabile che
+vengano dopo. L’idea è di Markov (1913). Il modo di misurare quanto bene indovina è di
+Shannon (1948). Il modo di scegliere la parola viene da Boltzmann (anni ’70 dell’Ottocento).
+I neuroni artificiali da McCulloch e Pitts (1943), il modo di allenarli dal 1986, le parole come
+luoghi dal 2003-2013, l’attenzione dal 2014-2017. Nessuno ha «inventato» ChatGPT: lo hanno
+costruito, senza saperlo, generazioni di persone che si occupavano d’altro.
+La domanda di Ada Lovelace e di Turing, però, è ancora aperta. Nel 2021 un gruppo di
+linguiste e ricercatrici, tra cui Emily Bender e Timnit Gebru, ha descritto questi modelli come
+«pappagalli stocastici»: sistemi che ricombinano forme linguistiche secondo probabilità,
+senza accesso al significato. Altri ricercatori obiettano che per prevedere bene la parola
+successiva in un trattato di chimica o in una dimostrazione bisogna aver catturato, in qualche
+Prima della prossima parola · una breve storia dell’intelligenza artificiale
+7
+forma, la struttura del mondo che quelle parole descrivono. Il dibattito è aperto, ed è uno dei
+pochi luoghi in cui oggi filosofi e ingegneri lavorano davvero sulla stessa domanda.
+PER CHI AMA PENSARE
+Tre domande da portarsi via. 1. Se capire significa saper usare le parole in modo appropriato (Wittgenstein),
+questi sistemi capiscono? Se significa altro, che cosa esattamente? 2. Lullo e Leibniz sognavano di ridurre il
+pensiero a calcolo. Ci siamo riusciti, o abbiamo scoperto che una parte del linguaggio era già calcolo? 3.
+L’obiezione di Lady Lovelace, la macchina non crea nulla, regge ancora davanti a un sistema che ha letto tutto
+ciò che abbiamo scritto e lo ricombina in modi che nessuno aveva previsto?
+IN BREVE
+Cronologia essenziale
+c. 1305
+Raimondo Lullo, Ars Magna: combinare concetti con dischi rotanti.
+1676 – 1703
+Leibniz: regola della catena delle derivate, sogno del Calculemus, aritmetica binaria.
+1726
+Swift, I viaggi di Gulliver: la macchina di Lagado che scrive libri a caso (satira).
+1843
+Ada Lovelace annota la Macchina Analitica di Babbage: primo programma, «la macchina non crea».
+1847
+Cauchy descrive la discesa del gradiente, il metodo con cui oggi si allenano le reti.
+1870 – 1900
+Boltzmann e Gibbs: entropia e distribuzione di Boltzmann (l’antenata della softmax).
+1906
+Markov inventa le catene di eventi dipendenti, per confutare Nekrasov. Muore Boltzmann.
+1913
+Markov conta 20.000 lettere dell’Evgenij Onegin: primo modello statistico di un testo.
+1924 – 1928
+Nyquist e Hartley (Bell Labs): prime misure quantitative dell’informazione.
+1936
+Turing descrive la macchina universale: la definizione teorica di computer.
+1943
+McCulloch e Pitts: primo modello matematico del neurone.
+1948
+Shannon, teoria dell’informazione: entropia e testi generati con n-grammi. Wiener, Cybernetics.
+1950
+Turing, Computing Machinery and Intelligence: il gioco dell’imitazione. Shannon costruisce Theseus.
+1951
+Shannon stima l’entropia dell’inglese facendo indovinare la lettera successiva.
+1953 – 1957
+Wittgenstein (significato come uso), Harris e Firth: l’ipotesi distribuzionale.
+1955 – 1956
+Proposta e seminario di Dartmouth: nasce il termine artificial intelligence.
+1958
+Rosenblatt: il percettrone.
+1966
+Weizenbaum: ELIZA, e la scoperta dell’«effetto ELIZA».
+1969 – 1980
+Minsky e Papert, Perceptrons; rapporto Lighthill (1973): il primo inverno dell’AI.
+1980
+Searle: l’esperimento mentale della stanza cinese.
+1985 – 1986
+Hinton e colleghi: macchina di Boltzmann; Rumelhart, Hinton e Williams rendono popolare la
+backpropagation.
+anni ’80 – ’90
+Jelinek e IBM: modelli statistici a n-grammi per voce e traduzione.
+2003
+Bengio: primo modello linguistico neurale con rappresentazioni distribuite delle parole.
+2012
+AlexNet: le reti profonde su GPU stravincono nel riconoscimento di immagini; inizia il deep learning.
+2013
+Mikolov e colleghi, word2vec: re − uomo + donna ≈ regina.
+2014
+Bahdanau, Cho e Bengio: il meccanismo di attenzione.
+2017
+Vaswani e colleghi (Google), Attention Is All You Need: nasce il Transformer.
+2018 – 2020
+GPT (2018), BERT (2018), GPT-2 (2019), GPT-3 con 175 miliardi di parametri (2020).
+2021
+Bender, Gebru e colleghi: l’articolo sui «pappagalli stocastici».
+2022
+30 novembre: ChatGPT. L’AI generativa entra nella vita quotidiana.
+2023 – oggi
+Claude, Gemini, LLaMA e molti altri modelli; nel 2024 Nobel per la fisica a Hopfield e Hinton.
+Nota sulle fonti: i fatti e le date sono documentati nella storia della disciplina. Gli aneddoti segnati con «si
+racconta» o «è attribuita» (von Neumann e il nome «entropia», la battuta di Jelinek, alcuni dettagli della
+giovinezza di Pitts) sono tramandati da testimoni e biografi ma non verificabili con certezza assoluta.
